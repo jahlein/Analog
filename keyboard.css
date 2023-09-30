@@ -1,0 +1,102 @@
+html,body{
+    font-size: 90%;
+    font-family: 'Cochin' , Georgia, Times, 'Times New Roman';
+    letter-spacing: 0.15em;
+    background-image: url("Pianos.jfif");
+    background-repeat:round;
+    background-position: center;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+#page{
+    max-width: 780px;
+    min-width: 10px;
+    margin: 10px auto 10px auto;
+    padding: 60px;
+    background-color: #080707;
+    border: 5px double #706a6a;
+    
+}
+
+.content{
+    max-width: 950px;
+    margin: 30px 100px;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #f8f8f8; 
+    letter-spacing: 0.15em;
+    line-height: 20px;
+    margin-bottom: 20px;
+    display: scroll;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.content .info-btn{
+    color: #ffffff;
+    background: #434546;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: 0.4s;
+    text-align: center;
+    width: 100px;
+    margin: 0px auto 50px auto;
+}
+
+.logo{
+    padding: 100px;
+}
+
+ul{
+    text-align: center;
+    width: 570px;
+    padding: 25px;
+    margin: 10px auto 10px auto;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+
+li{
+    display: inline;
+    margin: 0 px 3px;
+}
+
+p{
+    text-align: center;
+    width: 600px;
+    margin: 40px auto 50px auto;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.content .info-btn:hover{
+    background: #848588;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+a{
+    color: #cccccc;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;   
+}
+
+a:hover,a.on{
+    color: #000000;
+    background-color: #cccccc; 
+}
